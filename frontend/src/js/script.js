@@ -1,5 +1,5 @@
-
-    class CampusQALibrary {
+export function assets() {
+   class CampusQALibrary {
       constructor() {
         this.questionInput = document.getElementById("question");
         this.askBtn = document.getElementById("askBtn");
@@ -422,3 +422,5 @@
     document.addEventListener('DOMContentLoaded', () => {
       new CampusQALibrary();
     });
+}
+   
